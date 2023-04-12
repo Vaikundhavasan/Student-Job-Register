@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Student Registration</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Student Job Register</h1>
+        <form name="registration">
+            <div class="form">
+                <table>
+                    <tr>
+                        <th><label>Name</label></th>
+                        <th><input type="text" name="" id=""/></th>
+                    </tr>
+                    <tr>
+                        <th><label>DOB</label></th>
+                        <th><input type="date" name="" id=""/></th>
+                    </tr>
+                    <tr>
+                        <th><label>Gender</label></th>
+                        <th>
+                            <select>
+                                <option>Select Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </th>
+                    <tr>
+                        <th><label>Address</label></th>
+                        <th><textarea></textarea></th>
+                    </tr>
+                    <tr>
+                        <th><label>Mobile</label></th>
+                        <th><input type="number"></th>
+                    </tr>
+                    <tr>
+                        <th><label>Email</label></th>
+                        <th><input type="email"></th>
+                    </tr>
+                    <tr>
+                        <th><label >10<sup>th</sup> Mark</label></th>
+                        <th><input type="number"></th>
+                    </tr>
+                    
+                    <tr>
+                        <th><label >12<sup>th</sup> Mark</label></th>
+                        <th><input type="number"></th>
+                    </tr>
+                    
+                    <tr>
+                        <th><label>College Name</label></th>
+                        <th><input type="text"></th>
+                    </tr>
+                    
+                    <tr>
+                        <th><label>Qualification</label></th>
+                        <th>
+                            <select>
+                                <option>Select Qualification</option>
+                                <option>Bsc Computer Science</option>
+                                <option>MCA</option>
+                            </select>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <th>
+                            <label>Do You Have Arrear</label>
+                        </th>
+                        <th>
+                            <select id="arrear" onchange="getOption();">
+                                <option value="select">Select</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </th>
+                    </tr>
+                    
+                    <tr class="afterClick" >
+                        <th><label>CGPA</label></th>
+                        <th><input type="number"></th>
+                    </tr>
+                    
+                    <tr class="afterClick" >
+                        <th><label>Upload Your Resume</label></th>
+                        <th><input type="file"></th>
+                    </tr>
+                    
+                    <tr class="afterClick">
+                        <th><label>Company</label></th>
+                        <th>
+                            <select>
+                                <option>Select The Company</option>
+                                <option>TCS</option>
+                                <option>WIPRO</option>
+                                <option>ZOHO</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr class="afterClick">
+                        <th><button>Submit</button></th>
+                        <th><button>Clear</button></th>
+                    </tr>
+                </table>
+
+            </div>
+    
+        </form>
+    <script src="script.js"></script>
+    </body>
+</html>
